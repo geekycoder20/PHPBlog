@@ -27,7 +27,7 @@ Password is "arazzaq123" for all users
 - Quick View Post without page reload (ajax)
 - Comments and reply system
 - SEO Friendly URL for posts and pages
-- Secure From Common Web injections
+- Secure From Common Web exploits like SQL Injection,XSS and File Upload vulnerabilities
 - Different roles and permissions for users 
 
 # Configurations
@@ -35,13 +35,13 @@ Password is "arazzaq123" for all users
 - Create "blog" folder in htdocs or www folder
 - Copy all the files into "blog" folder
 - Configure database in classes/database.php
-- Replace $project_dir = "/blog/" with your project directory in config/init.php (if you have created folder with another name in htdocs)
-- Replace <base href="http://localhost/blog/"> with home page url of your site in includes/header.php on line 8
-- Replace $project_path = "/blog/" with your htdocs folder in backend/ajax/myajax.php
+- Replace `$project_dir = "/blog/"` with your project directory in config/init.php (if you have created folder with another name in htdocs)
+- Replace `<base href="http://localhost/blog/">` with home page url of your site in includes/header.php on line 8
+- Replace `$project_path = "/blog/"` with your htdocs folder in backend/ajax/myajax.php
 
 # Workflow
-This is the workflow used in this blog project
-First of all ajax with jquery is used in "js/myscripts.js" file and it sends requests to ajax/myajax.php file
+This is the workflow used in this blog project <br>
+First of all ajax with jquery is used in "js/myscripts.js" file and it sends requests to ajax/myajax.php file <br>
 In myajax.php file different methods of different classes are called to do specific tasks
 
 # How to Use Dynamics SQL Queries
